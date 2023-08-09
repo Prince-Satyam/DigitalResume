@@ -98,6 +98,7 @@ st.write(
 # Skills
 st.write("#")
 st.subheader("Skills")
+st.write("---")
 st.write(
     """
     - Python

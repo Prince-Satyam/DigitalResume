@@ -13,7 +13,7 @@ PAGE_TITLE = "Digital Resume | Prince Satyam"
 PAGE_ICON = ":wave:"
 NAME = "Prince Satyam"
 DESCRIPTION = """
-Software Professional with over 2+ years of experience in software development
+Experienced Software Engineer with a proven track record in software development spanning over 2+ years
 """
 EMAIL = "satyamprince199@gmail.com"
 
@@ -22,8 +22,8 @@ SOCIAL_MEDIA = {
     "LinkedIn": "https://www.linkedin.com/in/prince-satyam"
 }
 PROJECTS = {
-    "ATV": "Made a All Terrain Vehicle as my final year project, took it to ATVC and scored 3rd rank",
-    "Banking System": "Python project to create a new account, check balance, deposit money, update account and so on just like Indian Banking System"
+    "- ATV": "Made a All Terrain Vehicle as my final year project, took it to ATVC and scored 3rd rank",
+    "- Banking System": "Developed a Python script that simulates an Indian Banking System, enabling functions such as creating a new account, checking balance, depositing money, updating account information and so on."
 }
 
 st.set_page_config(page_title=PAGE_TITLE, page_icon=PAGE_ICON)
@@ -61,12 +61,37 @@ st.write("#")
 st.subheader("Experience & Qualifications")
 st.write(
     """
-    - Develop, maintain and enhance the product as per clients' and market demands
-    - Implement the API's and maintain it with the respective CAD systems
-    - Also involved in QA works and automated maximum manual testing efforts
-    - Leading the QA group, providing KT and guiding colleagues wherever required
-    - Developed test cases using selenium for our web application
-    - Ensure high performance of the application
+    Software professional with over 2+ years of experience and proven knowledge in Software Development, highly skilled in brainstorming and coding features & enhancements. Possesses an understanding of developing end-to-end applications as per client requirements and quality norms. Also adaptive at looking after QA works and developing testing frameworks.
+    """
+)
+st.write(
+    """
+    - B.Tech ( Mechanical || 2017 - 2021 || 81.50%)
+    Lakshmi Narain College Of Technology, Bhopal, Madhya Pradesh
+    - Xll ( PCM || 2014 - 2016 || 77.80%)
+    St. Joseph's School, NTPC, Kahalgaon, Bihar
+    - X (2013 - 2014 || 8.8 cgpa )
+    DAV Public School, NTPC, Kahalgaon, Bihar
+    """
+)
+
+# Work History
+st.write("#")
+st.subheader("Work History")
+st.write("---")
+# Jobs
+st.write("Wipro, Bangalore")
+st.write("Project Engineer")
+st.write("July, 2021 - Present")
+st.write(
+    """
+    - Software Development: I am accountable for the development, maintenance, and continuous improvement of our desktop application in accordance with the specific requirements of clients and market demands.
+    - UI Enhancement and Feature Development: I am involved in enhancing the user interfaces (UIs) and introducing new features to the application using Python, thereby enriching the user experience and meeting evolving market expectations
+    - CAD Integration: I collaborate with various CAD APIs and proficiently integrate them into our product using C++. This enables in gaining a comprehensive understanding of diverse CAD Models along with their features and properties into our application.
+    - Diagnostic Development: I design and implement complex diagnostics using Python, aimed at evaluating the suitability of models for production. These diagnostics are critical in identifying potential defects and ensuring the production of high-quality models.
+    - QA and Test Automation: I actively contributed to quality assurance efforts by automating numerous manual testing processes in the past, leading to improved efficiency and reliability. Additionally, I have played a key role in leading the QA group, imparting knowledge on development and QA activities, and providing guidance to colleagues as needed.
+    - Selenium Test Cases: I have developed test cases using Selenium for our web application, contributing to the comprehensive testing and validation of its functionalities.
+    - Performance Optimization: I am dedicated to ensuring high performance and optimal functionality of the application, constantly striving to enhance its overall efficiency and responsiveness.
     """
 )
 
@@ -76,30 +101,20 @@ st.subheader("Skills")
 st.write(
     """
     - Python
+    - Python Software Development & Python Application Programming
     - Data Structures & Algorithms
+    - C++
+    - C++ Application Programming
     - JavaScript
     - Selenium
-    - Java (Basics)
-    - CATIA
-    """
-)
-
-# Work History
-st.write("#")
-st.subheader("Work History")
-st.write("---")
-# Jobs
-st.write("Wipro, Pune")
-st.write("Project Engineer")
-st.write("July, 2021 - Present")
-st.write(
-    """
-    - Develop, maintain and enhance the product as per clients' and market demands
-    - Implement the API's and maintain it with the respective CAD systems
-    - Also involved in QA works and automated maximum manual testing efforts
-    - Leading the QA group, providing KT and guiding colleagues wherever required
-    - Developed test cases using selenium for our web application
-    - Ensure high performance of the application
+    - Rest APIs
+    - JSON
+    - XML
+    - CAD APIs
+    - CAD Systems (CATIA, SolidWorks, NX, Creo, Inventor, A3D, JT & STEP)
+    - Backend Development
+    - Agile
+    - Scrum
     """
 )
 
@@ -111,4 +126,22 @@ for project, link in PROJECTS.items():
     st.write("{} :".format(project))
     st.write("{}".format(link))
 
-# Deploy this resume to the internet: To Do
+# What's going on currently
+st.write("#")
+st.subheader("In-Progress Tasks")
+st.write("---")
+st.write("- Data Science Learning Journey")
+st.write("""
+      Actively enhancing skills in data science through self-directed learning and online courses.
+      Gaining proficiency in key data science concepts, including Data analysis and visualization,
+      Machine learning algorithms and techniques,
+      Statistical analysis and hypothesis testing,
+      Data preprocessing and cleaning.
+      Exploring real-world datasets to apply theoretical knowledge and gain practical insights.
+""")
+st.write("- Creating Movie Recommender System")
+st.write("""
+    By utilizing the skills of data science, I am creating a webpage which can suggests movies to users based on their preferences
+""")
+
+# Deploy this resume to the internet

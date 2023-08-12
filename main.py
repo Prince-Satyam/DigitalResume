@@ -6,7 +6,7 @@ from PIL import Image
 currDir = Path(__file__).parent if "__file__" in locals() else Path.cwd()
 css_file = currDir / "Styles" / "main.css"
 resume_file = currDir / "Assets" / "Prince_Satyam_Resume.pdf"
-profile_pic = currDir / "Assets" / "prince_pass_photo.jpeg"
+profile_pic = currDir / "Assets" / "Prince_Satyam_NTPC.png"
 
 # General settings
 PAGE_TITLE = "Digital Resume | Prince Satyam"

@@ -59,6 +59,7 @@ for idx, (platform, link) in enumerate(SOCIAL_MEDIA.items()):
 # Exprience & Qualifications
 st.write("#")
 st.subheader("Experience & Qualifications")
+st.write("---")
 st.write(
     """
     Software professional with over 2+ years of experience and proven knowledge in Software Development, highly skilled in brainstorming and coding features & enhancements. Possesses an understanding of developing end-to-end applications as per client requirements and quality norms. Also adaptive at looking after QA works and developing testing frameworks.

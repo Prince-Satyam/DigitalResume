@@ -6,7 +6,7 @@ from PIL import Image
 currDir = Path(__file__).parent if "__file__" in locals() else Path.cwd()
 css_file = currDir / "Styles" / "main.css"
 resume_file = currDir / "Assets" / "Prince_Satyam_Resume.pdf"
-profile_pic = currDir / "Assets" / "Prince_Satyam_NTPC.png"
+profile_pic = currDir / "Assets" / "Prince_Satyam_NTPC.png" #"prince_pass_photo.jpeg"
 
 # General settings
 PAGE_TITLE = "Digital Resume | Prince Satyam"
@@ -19,11 +19,13 @@ EMAIL = "satyamprince199@gmail.com"
 
 SOCIAL_MEDIA = {
     "Email": "https://mail.google.com/mail/?view=cm&fs=1&to=" + EMAIL,
-    "LinkedIn": "https://www.linkedin.com/in/prince-satyam"
+    "LinkedIn": "https://www.linkedin.com/in/prince-satyam",
+    "GitHub" : "https://github.com/Prince-Satyam"
 }
 PROJECTS = {
-    "- ATV": "Made a All Terrain Vehicle as my final year project, took it to ATVC and scored 3rd rank",
-    "- Banking System": "Developed a Python script that simulates an Indian Banking System, enabling functions such as creating a new account, checking balance, depositing money, updating account information and so on."
+    "- CineMatch: Intelligent Movie Recommendation Platform": "Developed a web page dedicated to a movie recommender system. Within this framework, when a user inputs a specific movie title, the application subsequently generates recommendations for analogous films worthy of consideration. This platform is designed to cater to cinephiles, wherein their movie preferences prompt a curated selection of compelling options. The creation of this platform leveraged my proficiency in Python programming and data science, and the webpage was constructed employing the Python-based Streamlit library.",
+    "- Banking System": "Developed a Python script that simulates an Indian Banking System, enabling functions such as creating a new account, checking balance, depositing money, updating account information and so on.",
+    "- ATV": "Made a All Terrain Vehicle as my final year project, took it to ATVC and scored 3rd rank"
 }
 
 st.set_page_config(page_title=PAGE_TITLE, page_icon=PAGE_ICON)
@@ -82,7 +84,7 @@ st.subheader("Work History")
 st.write("---")
 # Jobs
 st.write("Wipro, Bangalore")
-st.write("Project Engineer")
+st.write("Software Engineer")
 st.write("July, 2021 - Present")
 st.write(
     """
@@ -103,9 +105,9 @@ st.write("---")
 st.write(
     """
     - Python
-    - Python Software Development & Python Application Programming
-    - Data Structures & Algorithms
     - C++
+    - Data Structures & Algorithms
+    - Python Software Development
     - C++ Application Programming
     - JavaScript
     - Selenium
@@ -130,7 +132,7 @@ for project, link in PROJECTS.items():
 
 # What's going on currently
 st.write("#")
-st.subheader("In-Progress Tasks")
+st.subheader("On-going Tasks")
 st.write("---")
 st.write("- Data Science Learning Journey")
 st.write("""
@@ -141,9 +143,8 @@ st.write("""
       Data preprocessing and cleaning.
       Exploring real-world datasets to apply theoretical knowledge and gain practical insights.
 """)
-st.write("- Creating Movie Recommender System")
-st.write("""
-    By utilizing the skills of data science, I am creating a webpage which can suggests movies to users based on their preferences
-""")
 
-# Deploy this resume to the internet
+st.write("- Django")
+st.write("""
+      I am actively enhancing my skills in Django, a powerful web framework for Python, to bolster my proficiency in web development. Through dedicated self-study and hands-on projects, I have been cultivating expertise in building robust and scalable web applications.
+""")
